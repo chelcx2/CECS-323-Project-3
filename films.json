@@ -1,0 +1,34 @@
+  
+    {
+      "title": "No Time to Die",
+      "duration": 163,
+      "releaseDate": {"$date": "2021-10-08"},
+
+      "rating": "PG-13",
+      "genres": ["Action", "Adventure", "Thriller"],
+      "actorsid" :[] 
+     
+    }
+
+
+    {
+      "title": "Black Panther: Wakanda Forever",
+      "duration": 161,
+      "releaseDate": {"$date": "2022-11-10"},
+      "rating": "PG-13",
+      "genres": ["Action", "Adventure", "Superhero"],
+      "actorsid" :[{"$oid" : "6395481644484c9b37b864c2" },{"$oid" : "6395482144484c9b37b864c4" },
+      {"$oid" : "6395482b44484c9b37b864c6" },{"$oid" : "6395483544484c9b37b864c8" }]   
+     
+    }
+
+    
+    {
+      "title": "Akeelah and the Bee",
+      "duration": 112,
+      "releaseDate": {"$date": "2006-03-16"},
+      "rating": "PG",
+      "genres": ["Family", "Drama"],
+      "actorsid" :[{"$oid" : "6395483544484c9b37b864c8"}]   
+     
+    }

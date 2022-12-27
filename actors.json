@@ -1,0 +1,33 @@
+
+    {
+        "firstname": "Letitia",
+        "lastname": "Wright",
+        "birthday": {"$date": "1993-10-31"},
+        "imdbURL": "https://www.imdb.com/name/nm4004793/?ref_=tt_cl_t_7"
+    },
+
+    {
+        "firstname": "Lupita",
+        "lastname": "Nyong'o",
+        "birthday": {"$date": "1983-03-01"},
+        "imdbURL": "https://www.imdb.com/name/nm2143282/?ref_=tt_cl_t_3"
+    },
+
+    {
+        "firstname": "Danai",
+        "lastname": "Gurira",
+        "birthday": {"$date": "1978-02-14"},
+        "imdbURL": "https://www.imdb.com/name/nm1775091/?ref_=tt_cl_t_4"
+    },
+
+    {
+        "firstname": "Angela",
+        "lastname": "Bassett",
+        "birthday": {"$date": "1958-08-16"},
+        "imdbURL": "https://www.imdb.com/name/nm0000291/"
+    }
+note angela has 2 movies wthe Akeelah and the Bee and black panther
+
+
+
+

@@ -1,0 +1,85 @@
+{
+    "$jsonSchema": {
+        "title": "theater",
+        "description": "A theater that shows films.",
+        "bsonType": "object",
+        "required": [
+            "name",
+            "address",
+            "city",
+            "state",
+            "zipcode",
+            "rooms"
+        ],
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "name": {
+                "bsonType": "string"
+            },
+            "address": {
+                "bsonType": "string"
+            },
+            "city": {
+                "bsonType": "string"
+            },
+            "state": {
+                "bsonType": "string"
+            },
+            "zipcode": {
+                "bsonType": "string"
+            },
+            "rooms": {
+                "bsonType": "array",
+                "items": {
+                    "bsonType": "object",
+                    "title": "room",
+                    "description": "A room in the theater",
+                    "required": [
+                        "title",
+                        "capacity",
+                        "formats",
+                        "seats"
+                    ],
+                    "properties": {
+                        "title": {
+                            "bsonType": "string"
+                        },
+                        "capacity": {
+                            "bsonType": "int"
+                        },
+                        "formats": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "seats": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "object",
+                                "title": "seat",
+                                "description": "A seat in a room",
+                                "required": [
+                                    "number"
+                                ],
+                                "properties": {
+                                    "number": {
+                                        "bsonType": "string"
+                                    },
+                                    "labels": {
+                                        "bsonType": "array",
+                                        "items": {
+                                            "bsonType": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

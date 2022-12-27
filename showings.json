@@ -1,0 +1,32 @@
+
+
+
+{
+    "theaterId" : {"$oid" : "638b0c1d343fd06a93529efb" },
+    "filmId" : {"$oid" : "638bc99d343fd06a93529f0b" },
+    "showTime" : {"$date" : "2022-11-10T15:45:00.000Z"},
+    "format" : "Standard",
+    "tickets" : [{"_id" : {"$oid" : "<ObjectId()>"}, "price" : 18, "seatNumber": "1"}]
+        
+    }
+
+
+    {
+        "theaterId" : {"$oid" : "638b0c1d343fd06a93529efb" },
+        "filmId" : {"$oid" : "638bc99d343fd06a93529f0b" },
+        "showTime" : {"$date" : "2022-11-10T19:00:00.000Z"},
+        "format" : "IMAX",
+        "tickets" : [{"_id" : {"$oid" : "<ObjectId()>"}, "price" : 22, "seatNumber": "1"},
+        {"_id" :{"$oid" : "<ObjectId()>"}, "price" : 15, "seatNumber": "5"}]
+
+    }
+            
+    
+
+    {
+        "theaterId" : {"$oid" : "638b0c1d343fd06a93529efb" },
+        "filmId" : {"$oid" : "638bc99d343fd06a93529f0b" },
+        "showTime" : {"$date" : "2022-11-12T13:00:00.000Z"},
+        "format" : "Standard",
+        "tickets" : []    
+        }

@@ -1,0 +1,70 @@
+{
+    "$jsonSchema": {
+        "title": "showing",
+        "description": "A showing of a film at a theater.",
+        "bsonType": "object",
+        "required": [
+            "theaterId",
+            "filmId",
+            "showTime",
+            "format",
+            "tickets"
+
+        ],
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "theaterId": {
+                "bsonType": "objectId"
+            },
+            "roomTitle": {
+                "bsonType": "string"
+            },
+            "filmId": {
+                "bsonType": "objectId"
+            },
+            "filmTitle": {
+                "bsonType": "string"
+            },
+            "filmRating": {
+                "bsonType": "string",
+                "enum": [
+                    "NR",
+                    "G",
+                    "PG",
+                    "PG-13",
+                    "R",
+                    "NC-17"
+                ]
+            },
+            "showTime": {
+                "bsonType": "date"
+            },
+            "format": {
+                "bsonType": "string"
+            },
+            "tickets": {
+                "bsonType": "array",
+                "items": {
+                    "title": "ticket",
+                    "description": "a ticket sold for a showing",
+                    "bsonType": "object",
+                    "required" : ["_id", "price", "seatNumber"],
+                    "properties": {
+                        "_id": {
+                            "bsonType": "objectId"
+                        },
+                        "price": {
+                            "bsonType": "int"
+                        },
+                        "seatNumber": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
