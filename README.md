@@ -8,12 +8,7 @@ In this project, I translated a UML solution into MongoDB collections, using JSO
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Project 3: The Mongo Mash
-You may work on and submit this project with one other person.
 
-!!!!! BEFORE YOU SUBMIT YOUR ASSIGNMENT !!!!!
-Go to People and then at the top of the list of students, click on "Groups". Find an unclaimed Project 3 group and join it with your partner(s). DO THIS EVEN IF YOU ARE WORKING ALONE. 
-
-You can now submit the assignment.
 
 Overview
 In this project, you will translate the Project 1 UML solution into MongoDB collections, using JSON schema documents that I will provide. You will write and submit JSON documents to represent several theater, film, and showing documents. You will design a JSON Schema for a collection of actors who are the "stars" of the films in the database, choosing Mongo-appropriate ways to represent the relationship between films and their starring actors. Finally, you will write a few simple MongoDB queries using the MONGOSH shell in Compass.
